@@ -101,6 +101,4 @@ btnNew.addEventListener('click', function(){
   document.querySelector(`.player--${activePlayer}`).classList.remove('player--winner');
   document.querySelector(`#name--${activePlayer}`).textContent = `PLAYER ${activePlayer+1}`;
 
-
-
 })
